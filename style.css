@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Roboto,sans-serif;
+}
+
+.paintings{}
+    
+
+.painting {
+    height:60%;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-70%);
+    border: 6px solid lightcoral;
+    border-radius: 5px;
+}
+.s1{
+    background-image: url("./img/pexels-huseyn-kamaladdin-667838.jpg");
+    background-size: cover;
+}
+
+.s1 h1{
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 700;
+    color: white;
+    
+}
